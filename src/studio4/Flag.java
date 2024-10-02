@@ -5,7 +5,9 @@ import java.awt.Color;
 import edu.princeton.cs.introcs.StdDraw;
 
 public class Flag {
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	
+	{
 		StdDraw.setPenColor(Color.BLUE);
 		StdDraw.setPenRadius(0.05);
 		StdDraw.filledSquare(0.3, 0.5, 0.2);
@@ -33,5 +35,7 @@ public class Flag {
 		StdDraw.filledSquare(0.76, 0.74, 0.04);
 		StdDraw.filledSquare(0.84, 0.74, 0.04);
 		StdDraw.filledSquare(0.86, 0.74, 0.04);
+		StdDraw.picture( 0.5,  0.5, "src/Studio4/Screenshot 2024-10-02 140525.png");
+		
 	}	
 }
